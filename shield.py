@@ -18,7 +18,7 @@ def shield():
     # 完成五角星
     draw_five('#FFFFFF', 75)
     # 以下代码，将画好的图案按指定格式保存到当前文件目录
-    # windows 可以使用.jpg格式，MAC使用eps格式
+    # windows 可以使用.jpg格式，或.ps，MAC使用eps格式，或.ps
     ts = turtle.getscreen()
     ts.getcanvas().postscript(file="shield.eps")
 
